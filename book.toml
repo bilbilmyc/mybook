@@ -1,0 +1,10 @@
+[book]
+authors = ["thinkbook16+"]
+language = "en"
+multilingual = false
+src = "src"
+additional-css = ["src/css/custom.css"]
+
+[output.html]
+fold.enable = true # 启用折叠功能
+fold.level = 1     # 默认展开层级深度

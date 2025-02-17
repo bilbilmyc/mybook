@@ -1,0 +1,15 @@
+/* 显示折叠箭头 */
+.chapter-item > a::before {
+    content: "▸";
+    margin-right: 5px;
+    font-size: 0.8em;
+}
+
+.chapter-item.expanded > a::before {
+    content: "▾";
+}
+
+/* 保持子目录缩进 */
+ol.chapter-item {
+    padding-left: 1.5em !important;
+}
